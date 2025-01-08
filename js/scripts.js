@@ -52,3 +52,10 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+window.addEventListener('scroll', () => {
+    const svg = document.getElementsByClassName("svg-rotate");
+    const scrollPosition = window.scrollY;
+    // const rotation = ( ( scrollPosition / 3 ) % 360); // Rotate between 0 and 359 degrees
+    svg.style.transform = `translate(-50%, -50%) rotate((scrollPosition % 360)deg)`;
+});
