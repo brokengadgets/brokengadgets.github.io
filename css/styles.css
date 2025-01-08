@@ -10846,6 +10846,15 @@ html {
   }
 }
 
+.gadget-divider {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/img/bgr.svg);
+  filter: brightness(0) invert(1);
+}
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
