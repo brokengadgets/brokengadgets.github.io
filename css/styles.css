@@ -10852,8 +10852,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/img/bgr.svg);
-  filter: brightness(0) invert(1);
+  background-image: url(/assets/img/bgr-white.svg);
 }
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
