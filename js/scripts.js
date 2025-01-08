@@ -50,7 +50,6 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
 
 window.addEventListener('scroll', () => {
@@ -58,11 +57,11 @@ window.addEventListener('scroll', () => {
     const rightSet = document.querySelectorAll('.rotate-right');
     const scrollPosition = window.scrollY;
     leftSet.forEach((svg, index) => {
-        const rotation = (scrollPosition / 2) + (index * 3);
-        svg.style.transform = 'rotate(${rotation}deg)'
+        const rotation = (((scrollPosition / 20) + (index * 3)) % 360 ) / 360;
+        svg.style.transform = 'rotate(${rotation}turn)'
     })
     rightSet.forEach((svg, index) => {
-        const rotation = ((scrollPosition / 2) + (index * 3)) % 360 * -1 ;
-        svg.style.transform = 'rotate(${rotation}deg)'
+        const rotation = ((((scrollPosition / 2) + (index * 3)) % 360) / 360 ) * -1 ;
+        svg.style.transform = 'rotate(${rotation}turn)'
     })
 });
