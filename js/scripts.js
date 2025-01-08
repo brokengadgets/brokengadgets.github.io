@@ -54,8 +54,19 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 window.addEventListener('scroll', () => {
-    const svg = document.getElementsByClassName("svg-rotate");
+    // const svg = document.getElementsByClassName("svg-rotate");
+    // svg = document.getElementsByClassName("svg-rotate");
+    const leftSet = document.querySelectorAll('.rotate-left')
+    const rightSet = document.querySelectorAll('.rotate-right')
     const scrollPosition = window.scrollY;
     // const rotation = ( ( scrollPosition / 3 ) % 360); // Rotate between 0 and 359 degrees
-    svg.style.transform = `translate(-50%, -50%) rotate((scrollPosition % 360)deg)`;
+    // svg.style.transform = `translate(-50%, -50%) rotate((scrollPosition % 360)deg)`;
+    leftSet.forEach((svg, index) => {
+        const rotation = (scrollPosition / 2) + (index * 3);
+        svg.style.transform = 'rotate(${rotation}deg)'
+    })
+    rightSet.forEach((svg, index) => {
+        const rotation = ((scrollPosition / 2) + (index * 3)) % 360 * -1 ;
+        svg.style.transform = 'rotate(${rotation}deg)'
+    })
 });
