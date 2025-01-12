@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Broken Gadgets on Broken Gadgets R&amp;D</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Broken Gadgets on Broken Gadgets R&amp;D</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jan 2025 19:16:03 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mumen Controller</title>
+      <link>http://localhost:1313/mumen-controller/</link>
+      <pubDate>Sat, 11 Jan 2025 19:16:03 -0500</pubDate>
+      <guid>http://localhost:1313/mumen-controller/</guid>
+      <description>&lt;p&gt;Checking my git logs, I&amp;rsquo;ve worked on what would become mumen-controller for nearly 3 years at the time of writing this and have never stopped to record my progress in a useful way (though I have written about it in various private chat with friends and posted photos of build progress to a few group chats). For the beginning of this post, I&amp;rsquo;ll focus on a historical recap to the best of my available records and recollection. Some details may be slightly deviated from the way things went, but it should give a useful-enough background on the project, some of the hurdles to cross, and where the current goals were generated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Send us an email with the form below if you think Broken Gadgets can help you&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;form class=&#34;black-80 sans-serif&#34; accept-charset=&#34;UTF-8&#34; action=&#34;https://formspree.io/f/xzzzyyvq&#34; method=&#34;POST&#34; role=&#34;form&#34;&gt;&#xA;&#xA;    &lt;label class=&#34;f6 b db mb1 mt3 sans-serif mid-gray&#34;  for=&#34;name&#34;&gt;Your Name&lt;/label&gt;&#xA;    &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; class=&#34;w-100 f5 pv3 ph3 bg-light-gray bn&#34;  required placeholder=&#34; &#34;  aria-labelledby=&#34;name&#34;/&gt;&#xA;&#xA;    &lt;label class=&#34;f6 b db mb1 mt3 sans-serif mid-gray&#34; for=&#34;email&#34;&gt;Email Address&lt;/label&gt;&#xA;    &lt;input type=&#34;email&#34; id=&#34;email&#34; name=&#34;email&#34; class=&#34;w-100 f5 pv3 ph3 bg-light-gray bn&#34;  required placeholder=&#34; &#34;  aria-labelledby=&#34;email&#34;/&gt;&#xA;    &lt;div class=&#34;requirements f6 gray glow i ph3 overflow-hidden&#34;&gt;&#xA;      An email address is required.&#xA;    &lt;/div&gt;&#xA;&#xA;    &lt;label class=&#34;f6 b db mb1 mt3 sans-serif mid-gray&#34; for=&#34;message&#34;&gt;Message&lt;/label&gt;&#xA;    &lt;textarea id=&#34;message&#34; name=&#34;message&#34; class=&#34;w-100 f5 pv3 ph3 bg-light-gray bn h4&#34; aria-labelledby=&#34;message&#34;&gt;&lt;/textarea&gt;&#xA;&#xA;    &lt;input class=&#34;db w-100 mv2 white pa3 bn hover-shadow hover-bg-black bg-animate bg-black&#34; type=&#34;submit&#34; value=&#34;Send&#34; /&gt;&#xA;&#xA;&lt;/form&gt;</description>
+    </item>
+  </channel>
+</rss>
