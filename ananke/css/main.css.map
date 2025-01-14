@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/this/prj/bgr/bgr-hugo",
+	"sourceRoot": "/home/runner/work/bgr-hugo/bgr-hugo/main",
 	"sources": [
 		"ananke/css/main.css"
 	],
