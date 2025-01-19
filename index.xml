@@ -10,7 +10,7 @@ Before getting started, we needed to find a board support package for the ESP32 
 &lt;p>Upon compilation it was determined that there was no serial library to compile.&lt;br>
 &lt;code>import serial&lt;/code>&lt;br>
 &lt;code>ImportError: No module named serial&lt;/code>&lt;br>
-As it turns out, it&amp;rsquo;s a python module to be downloaded and I did not have pip, either.&lt;br>
+As it turns out, it&amp;rsquo;s a python module to be downloaded and I did not have pip, either. Open a terminal and input:&lt;br>
 &lt;code>sudo pacman -S python-pip&lt;/code>&lt;br>
 then&lt;br>
 &lt;code>pip install pyserial&lt;/code>&lt;br>
@@ -18,7 +18,7 @@ Come to compile again and everything checks out, going to flash it to the board 
 &lt;code>Serial port /dev/ttyUSB0&lt;/code>&lt;br>
 &lt;code>File &amp;quot;/home/YOURUSERHERE/.local/lib/python3.10/site-packages/serial/serialposix.py&amp;quot;, line 322, in open self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)&lt;/code>&lt;br>
 &lt;code>PermissionError: [Errno 13] Permission denied: '/dev/ttyUSB0'&lt;/code>&lt;br>
-Permissions can be checked using:&lt;br>
+Permissions can be checked in your terminal using:&lt;br>
 &lt;code>ls -lash /dev/tty*&lt;/code>&lt;br>
 in this case, I needed to modify my user permissions in the group uucp to access serial devices. &lt;br>
 &lt;code>usermod -aG YOURUSERHERE uucp&lt;/code>&lt;/p></description></item><item><title>Contact</title><link>https://brokengadgets.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://brokengadgets.io/contact/</guid><description>&lt;p>Send us an email with the form below if you think Broken Gadgets can help you&lt;/p>
